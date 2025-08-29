@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Team</title>
+  <link rel="stylesheet" href="Team.css">
+</head>
+<body>
+      <footer>
+        <header class="navbar">
+          <div class="logo-text">MAGNUM.</div>
+            <nav>
+             <ul>
+              <li><a href="Front_page/index.html">Home</a></li></ul>
+              <a href="#">About</a>
+              <a href="#">Projects</a>
+              <a href="#">Contact</a>
+              <a href="https://www.blogger.com/u/3/blog/posts/1689740053507878889?hl=en">Blog</a>
+            </nav>
+        </header>
+        </footer>
+
+  <section class="team-section">
+    <h1>Meet Our Team</h1>
+    <div class="team-container">
+      <div class="team-card" data-member="1">
+        <img src="logo.png" alt="Ragesh">
+        <h2>Ragesh</h2>
+       <p>Founder / Leader</p>
+      </div>
+      <div class="team-card" data-member="2">
+        <img src="images/member2.jpg" alt="Minha">
+        <h2>T S Minha Fathim</h2>
+        <p>Co-Leader</p>
+      </div>
+      <div class="team-card" data-member="3">
+        <img src="images/member3.jpg" alt="Sara">
+        <h2>Sara</h2>
+        <p>Malware Analyst</p>
+      </div>
+      <div class="team-card" data-member="4">
+        <img src="images/member4.jpg" alt="John">
+        <h2>John</h2>
+        <p>Network Security</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Overlay Modal -->
+<div id="profile-overlay" class="overlay">
+  <div class="profile-sheet" id="profile-sheet">
+    <span class="close-btn" onclick="closeProfile()">&times;</span>
+    
+    <div class="profile-header">
+      <!-- Left side: Photo -->
+      <div class="profile-photo">
+        <img id="profilePhoto" src="" alt="Profile Photo">
+      </div>
+
+      <!-- Right side: All text -->
+      <div class="profile-info">
+        <h2 id="profileName"></h2>
+        <p id="profileRole"></p>
+
+        <div class="profile-section">
+          <h3>Skills</h3>
+          <ul id="profileSkills"></ul>
+        </div>
+
+        <div class="profile-section">
+          <h3>Projects</h3>
+          <ul id="profileProjects"></ul>
+        </div>
+
+        <div class="profile-section">
+          <h3>About</h3>
+          <p id="profileBio"></p>
+        </div>
+
+        
+        <div class="profile-section">
+          <h3>Connect</h3>
+          <div class="social-links" id="profileSocial"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="Team.js"></script>
+</body>
+</html>
